@@ -1,30 +1,47 @@
-සැබෑ Cloud සර්වර් එකකට සම්බන්ධ වෙද්දී "Ports" වැඩ කරන්නේ කොහොමද? ☁️🖥️
-ඔයා කවදා හරි හිතලා තියෙනවාද ඇමරිකාවේ තියෙන සර්වර් එකකට ඔයාගේ ලැප් එකේ ඉඳන් සම්බන්ධ වෙද්දී ඇත්තටම වෙන්නේ මොකක්ද කියලා? අද අපි කතා කරන්නේ ඒ සන්නිවේදනය සිද්ධ වෙන Port Mapping සහ Firewall ගැනයි.
-සැබෑ Cloud සර්වර් එකක (AWS, Azure, Google Cloud) ආරක්ෂාව සහ කළමනාකරණය සඳහා මේ පෝර්ට් (Ports) සම්බන්ධ වෙන්නේ ප්‍රධාන ක්‍රම දෙකකටයි:
-1. Firewall එක හරහා "ආරක්ෂිත පාලමක්" තැනීම (The Gateway) 🛡️
-ඕනෑම Cloud සර්වර් එකකට ඉදිරියෙන් Firewall එකක් හෝ Security Group එකක් තියෙනවා. ආරක්ෂාව වැඩිකරන්න අපි මෙන්න මෙහෙම කරනවා:
-සර්වර් එක ඇතුළේ SSH සේවාව දුවන්නේ සාමාන්‍ය Port 22 එකේ.
-හැබැයි පිටත ලෝකයට විවෘත කරලා තියෙන්නේ Port 2222 කියන දොර විතරයි.
-කවුරුහරි ඉන්ටර්නෙට් එක හරහා 2222 ට ආවොත්, Firewall එක ඒ සම්බන්ධතාවය නිහඬවම සර්වර් එක ඇතුළේ තියෙන 22 පෝර්ට් එකට හරවා යවනවා.
-2. Docker Containers භාවිතය (Microservices) 📦
-සර්වර් එකක් ඇතුළේ Docker පාවිච්චි කරලා Ubuntu සර්වර් 10ක් එකවර දුවනවා කියලා හිතන්න. ඒ හැම එකකම තියෙන්නේ Port 22. එතකොට කොහොමද හරියටම එකකට සම්බන්ධ වෙන්නේ?
-අපි සර්වර් එකේ (Host) වෙනස් පෝර්ට්ස් (2221, 2222, 2223...) වෙන් කරනවා.
-සෑම පෝර්ට් එකක්ම අදාළ Container එකේ 22 පෝර්ට් එකට "Map" කරනවා.
-සරලවම මේක වෙන්නේ කොහොමද? 🤔
-මේක වෙන්නේ "Network Address Translation" (NAT) කියන තාක්ෂණයෙන්. සර්වර් එකේ තියෙන Routing Table එකට අපි නියෝගයක් දීලා තියෙනවා:
-"2222 ට එන ඕනෑම කෙනෙක්ව, 22 පෝර්ට් එකට හරවා යවන්න (Redirect)."
-ඇයි මේ කරදරේ? 🤷‍♂️
-Security: හැකර්වරු මුලින්ම බලන Port 22 වහලා තියන්න පුළුවන්.
-Scalability: එකම IP එක හරහා සර්වර් කිහිපයක් පාලනය කරන්න පුළුවන්.
-Organization: ජාලය වඩාත් පිළිවෙළට පාලනය කරන්න පුළුවන්.
-ඔයා දැන් ඔයාගේ ලැප් එකේ Docker Lab එකක් කරනවා නම්, ඔයා මේ පුරුදු වෙන්නේ ලෝකයේ ලොකුම Cloud සමාගම් වැඩ කරන තාක්ෂණයටමයි! 🚀
-#CloudComputing #CyberSecurity #Docker #DevOps #Networking #SinhalaTech #CloudEngineering #WebDevelopment
 ---
-## 3. Ninja Calculator: System Tray Application 🧮
+layout: default
+title: Pahattuge Dulanjana Nandun
+---
 
-මම මෑතකදී නිර්මාණය කළ තවත් ප්‍රොජෙක්ට් එකක් තමයි **Ninja Calculator** කියන්නේ. මෙහි විශේෂත්වය වන්නේ සාමාන්‍ය කැල්කියුලේටරයකට වඩා වෙනස්ව, මෙය අවශ්‍ය නැති වෙලාවට System Tray එකේ සඟවා තබා ගැනීමට හැකි වීමයි.
+# Pahattuge Dulanjana Nandun
+[View My GitHub Profile](https://github.com/Nandun-PKP)
 
-- **තාක්ෂණය:** C# (.NET Framework)
-- **විශේෂාංග:** Minimizes to System Tray, ලස්සන UI එකක් සහ භාවිතයට පහසු වීම.
+---
 
-[View Source Code on GitHub](https://github.com/Nandun-PKP/Smart_Background_Calculator) | [Download App (.exe)](Calculator.exe)
+## 📝 Latest Blog Posts
+මෙතැන මගේ අලුත්ම තාක්ෂණික ලිපි කියවිය හැකියි.
+
+### 1. සැබෑ Cloud සර්වර් එකකට සම්බන්ධ වෙද්දී “Ports” වැඩ කරන්නේ කොහොමද? ☁️🖥️
+ඇමරිකාවේ තියෙන සර්වර් එකකට ඔයාගේ ලැප් එකේ ඉඳන් සම්බන්ධ වෙද්දී ඇත්තටම වෙන්නේ මොකක්ද? අද අපි කතා කරන්නේ ඒ සන්නිවේදනය සිද්ධ වෙන Port Mapping සහ Firewall ගැනයි.
+
+#### ප්‍රධාන ක්‍රම දෙක:
+* **Firewall & Port Forwarding:** සර්වර් එක ඇතුළේ Port 22 දුවද්දී, පිටතට Port 2222 විවෘත කර තැබීමෙන් ආරක්ෂාව වැඩි වේ.
+* **Docker Containers (NAT):** එකම Host එකේ දුවන Container කිහිපයක් වෙනස් Port හරහා (2221, 2222...) වෙන් කර හඳුනා ගැනීම.
+
+> **Tags:** #CloudComputing #CyberSecurity #Docker #DevOps #Networking
+
+[Read More...](ලින්ක්-එක-මෙතැනට)
+
+---
+
+## 🚀 Featured Projects
+මම නිර්මාණය කළ ප්‍රොජෙක්ට් කිහිපයක් පහතින් දැක්වේ.
+
+### 🧮 Ninja Calculator: System Tray Application
+සාමාන්‍ය කැල්කියුලේටරයකට වඩා වෙනස්ව, මෙය අවශ්‍ය නැති වෙලාවට **System Tray** එකේ සඟවා තබා ගැනීමට හැකි වීම මෙහි විශේෂත්වයයි.
+
+* **Technology:** C# (.NET Framework)
+* **Features:** * Minimizes to System Tray
+    * Modern UI Design
+    * Easy Accessibility
+
+[📁 View Source Code](https://github.com/Nandun-PKP/Ninja-Calculator) | [📥 Download App (.exe)](ලින්ක්-එක-මෙතැනට)
+
+---
+
+## 🛠 Skills & Tools
+* **Languages:** Java (Spring Boot), C#, Dart (Flutter)
+* **Security:** Penetration Testing, Ethical Hacking
+* **Infrastructure:** AWS, Google Cloud, Docker, Linux
+
+---
