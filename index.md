@@ -1,10 +1,3 @@
----
-layout: default
-title: Home - Pahattuge Dulanjana Nandun
----
-
-# Pahattuge Dulanjana Nandun
-For complete details, visit my GitHub Profile: [Nandun-PKP](https://github.com/Nandun-PKP)
 
 ---
 
