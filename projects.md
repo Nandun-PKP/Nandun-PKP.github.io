@@ -23,4 +23,4 @@ A communication app built using Flutter and MediaPipe.
 ### 🌱 Hello Spring Web
 A foundational web application demonstrating the core request flow of Spring MVC, DispatcherServlet, and Controllers.
 * **Technology:** Java 17, Spring MVC, Maven, Apache Tomcat
-* [📁 Source Code](https://github.com/Nandun-PKP/Hello_Spring_Web.git) | [📄 View Discription](README.md)
+* [📁 Source Code](https://github.com/Nandun-PKP/Hello_Spring_Web.git) | [📄 View Discription](https://github.com/dulanjana-nadun/hello-spring)
