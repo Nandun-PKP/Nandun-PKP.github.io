@@ -10,7 +10,7 @@ title: Blog Posts
 ### ☁️ Understanding Port Mapping: How to Connect to a Remote Cloud Server
 A simplified guide on how communication works between your laptop and a server in the USA, covering Port Mapping and Firewalls.
 * **Tags:** #Cloud #Networking #Docker
-* [Read Full Article](#article-1)
+* [Read Full Article](PortCloud.md)
 
 ---
 
