@@ -1,3 +1,7 @@
+[⬅️ Back to Home](blog-posts.md)
+
+---
+
 # Beyond Hardcoding: 3 Reasons Why Code and Configuration Must Never Mix
 
 Have you ever wondered, *"Why can't I just write all these settings—passwords, port numbers, folder paths—directly inside my Java code? Why do we bother managing separate XML, JSON, or YAML files?"*
