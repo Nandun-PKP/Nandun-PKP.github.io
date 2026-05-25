@@ -8,7 +8,7 @@ A beginner's guide on how to enter the world of Cyber Security.
 
 ---
 
-## ☁️ How "Ports" Work When Connecting to a Real Cloud Server 🖥️
+# ☁️ How "Ports" Work When Connecting to a Real Cloud Server 🖥️
 
 Have you ever wondered what actually happens when you connect to a server located in the USA from your laptop? Today, we are diving deep into how this communication is handled using **Port Mapping** and **Firewalls**.
 
