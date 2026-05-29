@@ -1,3 +1,5 @@
+[⬅️ Back to Home](blog-posts.md)
+
 ### Mastering Decoupling: Why Constructor Injection is the Heart of Spring Boot
 
 In software engineering, how you connect your application's components determines whether your code is a "fragile mess" or a "robust system." The most effective way to handle these connections is through **Constructor Injection**.
