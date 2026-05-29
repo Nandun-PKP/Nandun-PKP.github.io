@@ -1,12 +1,12 @@
 [⬅️ Back to Home](blog-posts.md)
 
-### Mastering Decoupling: Why Constructor Injection is the Heart of Spring Boot
+## Mastering Decoupling: Why Constructor Injection is the Heart of Spring Boot
 
 In software engineering, how you connect your application's components determines whether your code is a "fragile mess" or a "robust system." The most effective way to handle these connections is through **Constructor Injection**.
 
 Here is a breakdown of why this architectural pattern is a game-changer for modern Java development.
 
-## 1. The Seamless Data Flow (The Connection)
+### 1. The Seamless Data Flow (The Connection)
 
 In a standard Spring Boot application, data travels through a specialized pipeline. Instead of one massive file, we break the logic into distinct layers:
 
@@ -14,13 +14,12 @@ In a standard Spring Boot application, data travels through a specialized pipeli
 * **Service ↔ Controller:** The Controller (`@RestController`) needs data to fulfill a user's request. It "calls" the Service, but it does so through a variable provided by Spring Boot via the Constructor.
 * **Controller ↔ Browser:** Finally, the Controller takes the prepared data and delivers it to the user's Browser, typically in a clean JSON format.
 
-## 2. Tight Coupling vs. Loose Coupling: Why `new` is Your Enemy
+### 2. Tight Coupling vs. Loose Coupling: Why `new` is Your Enemy
 
 To understand the power of Constructor Injection, we must compare it to the traditional (and problematic) way of creating objects.
 
 ### ❌ The Hardcoded Way (Tight Coupling)
 
-```java
 private BookService bookService = new BookService();
 The Problem: By using the new keyword, the Controller is "locked" to one specific version of the Service.
 
@@ -59,7 +58,3 @@ The Result: You can test if your Controller logic works perfectly in millisecond
 
 Summary
 By moving away from new and embracing Constructor Injection, you transition from writing simple scripts to building scalable, testable, and professional-grade software. It ensures your layers stay connected but independent—the hallmark of a master developer.
-"""
-
-with open("spring-boot-constructor-injection.md", "w", encoding="utf-8") as f:
-f.write(markdown_content)
