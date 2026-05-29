@@ -20,3 +20,13 @@ A simplified guide on why we separate application settings from source code, exp
 
 * Tags: #SoftwareArchitecture #DevOps #Security
 * [Read Full Article](WhyConfig.md)
+
+---
+
+### 🏗️ Mastering Decoupling: Why Constructor Injection Rules Spring Boot
+A practical guide explaining why the new keyword is a bad idea in modern Java. Discover how Constructor Injection helps you build scalable, easily testable, and loosely coupled applications.
+
+* Tags: #SpringBoot #DependencyInjection #CleanCode #Java
+* [Read Full Article](ConstructorInjec.md) | [📁 Source Code](https://github.com/Nandun-PKP/ConstructorInjection)
+
+
