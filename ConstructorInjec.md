@@ -19,8 +19,9 @@ In a standard Spring Boot application, data travels through a specialized pipeli
 To understand the power of Constructor Injection, we must compare it to the traditional (and problematic) way of creating objects.
 
 ### ❌ The Hardcoded Way (Tight Coupling)
-
+-
 private BookService bookService = new BookService();
+-
 The Problem: By using the new keyword, the Controller is "locked" to one specific version of the Service.
 
 The Struggle: If you want to use a MockBookService for testing, you must manually change your source code.
@@ -28,12 +29,14 @@ The Struggle: If you want to use a MockBookService for testing, you must manuall
 Control: The Controller is in charge of creating its own dependencies, making the system rigid.
 
 ✅ The Injection Way (Loose Coupling)
-Java
+
+-
 private final BookService bookService;
 
 public BookController(BookService bookService) {
     this.bookService = bookService;
 }
+-
 The Benefit: The Controller simply says, "I need a BookService to function. I don't care how it's made; just give me one."
 
 The Magic: Spring Boot (the IoC Container) looks at the constructor and "injects" the correct object at runtime.
